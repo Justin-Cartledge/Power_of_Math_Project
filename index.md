@@ -30,9 +30,11 @@ This application is built on Amazon Web Services (AWS) to perform mathematical c
 
 <br>![Amplify drag index zip](Amplify drag index zip.png)<br>
 
-<br><br><ins>**Part 2. Use AWS Lambda to add the mathematical function to be triggered with Python code**</ins><br>
+<br><br><ins>**Part 2. AWS Lambda**</ins><br>
 
+<br>Use AWS Lambda to add the mathematical function to be triggered with Python code.<br>
 Choose the "Author from Scratch" option to create the function, add the Function Name, and choose the Runtime (language for the function).<br>
+
 
 
 <br>![Lambda python function](Lambda Python function.png)<br>
@@ -56,7 +58,7 @@ Choose the "Author from Scratch" option to create the function, add the Function
 
 
 
-<br><br><ins>**Part 3. Use AWS API Gateway**</ins><br>
+<br><br><ins>**Part 3. AWS API Gateway**</ins><br>
 
 <br>Use AWS API Gateway to invoke the AWS Lambda function and enable CORS to allow objects in different domains to speak to each other.<br>
 
@@ -70,39 +72,11 @@ Choose the "Author from Scratch" option to create the function, add the Function
 
 <br><ins>**Part 4. AWS DynamoDB**</ins><br>
 
+<br>Use AWS DynamoDB to store results. Since AWS DynamoDB is noSQL, its lighter and easier to use.<br>
 
+<br>![dynamo db 1](dynamo db 1.png)<br>
+<br>![dynamo db 2](dynamo db 2.png)<br>
 
-Created the Log Analytics Workspace (LAW). The LAW is the central hub for collecting, storing, and analyzing log data across Azure and even non-Azure environments. Think of it as a specialized data lake for operational insights.<br>
-
-<br>![LAW Picture](Azure Log Analystics Workspace Log Repository Creation_3.png)<br>
-
-Created a Sentinel Instance and connected it to the LAW. Sentinel is a deployment of Microsoft’s cloud-native SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution within your Azure environment.<br>
-
-<br>![Sentinel Picture](Azure Sentinel SIEM Creation_3.png)<br>
-
-Configured the "Windows Security Events via AMA" connector. This is a data ingestion tool in Microsoft Sentinel that uses the Azure Monitor Agent (AMA) to collect Windows security logs from machines and send them to a Log Analytics Workspace.<br>
-
-<br>![AMA Picture](Azure Sentinel SIEM Log Forwarding_1.png)<br>
-
-<br>![Log Picture](Azure Log Analystics Workspace Log Repository Query_1.jpg)<br>
-
-<br><ins>**Part 5. words**</ins><br>
-
-Created the Data Collection Rule (DCR) within Sentinel, and created a Watchlist. A DCR stands for Data Collection Rule—it’s a configuration that tells Azure Monitor what data to collect, how to process it, and where to send it. A watchlist is a customizable list of data that helps you correlate, filter, and enrich security events. Think of it as a reference table you can use to enhance threat detection and response.<br>
-
-<br>Imported a spreadsheet (as a “Sentinel Watchlist”) which contains geographic information for each block of IP addresses.<br>
-
-<br>![GeoMapping Pic 1](Azure Create Watch List with GeoMapping of IPs for Log Attempts_1.jpg)<br>
-
-<br>![GeoMapping Pic 2](Azure Create Watch List with GeoMapping_1.jpg)<br>
-
-<br><ins>**Part 6. words**</ins><br>
-
-<br>![Attack Map](Azure Attack Map_1.jpg)<br>
-
-<br>As a project overview, a honeypot environment was established within Microsoft Azure by provisioning a virtual machine (VM) intentionally exposed to the public internet. Steps involve: Honeypot Configuration, Log Collection and Forwarding, SIEM Integration, and Attack Source Visualization. Below is a visual representation of what was created.<br>
-
-<br>![Attack Map](Azure Project Overview_1.png)<br>
-
-
+<br>Use AWS IAM (Identity and Access Management) to grant the AWS Lambda function the permission to add results to the AWS DynamoDB with the ARN URL.<br>
+<br>Finally, Update the AWS Amplify code with the API Gateway URL to fully connect all the components for the application.
 
