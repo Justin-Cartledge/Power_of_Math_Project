@@ -14,7 +14,7 @@ This application is built on Amazon Web Services (AWS) to perform mathematical c
 <br><ins>**Part 1. AWS Amplify** </ins><br>
 
 
-<br>Create and host a simple webpage using AWS Amplify for a simple index.html ![Amplify from AWS Console](Amplify from AWS Console.png)
+<br>Create and host a simple webpage using AWS Amplify for a simple index.html ![Amplify from AWS Console](Amplify from AWS Console.png)<br>
 
 <br>![Amplify Click Deploy App](Amplify Click Deploy App.png)
 
@@ -30,7 +30,7 @@ This application is built on Amazon Web Services (AWS) to perform mathematical c
 
 <br>![Amplify drag index zip](Amplify drag index zip.png)<br>
 
-<br><ins>**Part 2. Use AWS Lambda to add the mathematical function code to be triggered with Python code**</ins><br>
+<br><br><ins>**Part 2. Use AWS Lambda to add the mathematical function to be triggered with Python code**</ins><br>
 
 Choose the "Author from Scratch" option to create the function, add the Function Name, and choose the Runtime (language for the function).<br>
 
@@ -56,7 +56,9 @@ Choose the "Author from Scratch" option to create the function, add the Function
 
 
 
-<br><ins>**Part 3. Use AWS API Gateway to invoke the AWS Lambda function and enable CORS to allow objects in different domains to speak to each other.**</ins><br>
+<br><br><ins>**Part 3. Use AWS API Gateway**</ins><br>
+
+<br>Use AWS API Gateway to invoke the AWS Lambda function and enable CORS to allow objects in different domains to speak to each other.<br>
 
 <br>![API Gateway](API Gateway.png)<br>
 <br>![API Gateway 2](API Gateway 2.png)<br>
@@ -66,7 +68,9 @@ Choose the "Author from Scratch" option to create the function, add the Function
 <br>![API Gateway 6](API Gateway 6.png)<br>
 
 
-<br><ins>**Part 4. words**</ins><br>
+<br><ins>**Part 4. AWS DynamoDB**</ins><br>
+
+
 
 Created the Log Analytics Workspace (LAW). The LAW is the central hub for collecting, storing, and analyzing log data across Azure and even non-Azure environments. Think of it as a specialized data lake for operational insights.<br>
 
