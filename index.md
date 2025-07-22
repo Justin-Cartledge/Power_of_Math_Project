@@ -14,7 +14,7 @@ This application is built on Amazon Web Services (AWS) to perform mathematical c
 <br><ins>**Part 1. AWS Amplify** </ins><br>
 
 
-Create and host a simple webpage using AWS Amplify for a simple index.html ![Amplify from AWS Console](Amplify from AWS Console.png)
+<br>Create and host a simple webpage using AWS Amplify for a simple index.html ![Amplify from AWS Console](Amplify from AWS Console.png)
 
 <br>![Amplify Click Deploy App](Amplify Click Deploy App.png)
 
@@ -46,7 +46,7 @@ Choose the "Author from Scratch" option to create the function, add the Function
 
 <br>![Lambda python function test successful](Lambda python function test successful.png)<br>
 
-Configure the Role Name and Permissions.<br>
+<br>Configure the Role Name and Permissions.<br>
 
 <br>![lambda config role name execution](lambda config role name execution.png)<br>
 <br>![lambda config role name execution 2](lambda config role name execution 2.png)<br>
@@ -56,11 +56,14 @@ Configure the Role Name and Permissions.<br>
 
 
 
-<br><ins>**Part 3. words**</ins><br>
+<br><ins>**Part 3. Use AWS API Gateway to invoke the AWS Lambda function and enable CORS to allow objects in different domains to speak to each other.**</ins><br>
 
-Within the VM, reviewed the Event Viewer and inspected the Security Logs to confirm that there is incoming log traffic such as event ID: 4625 for failed logins.<br>
-
-<br>![Event Viewer](Azure VM Event View Logs for Failed Login Attemps_1.png)<br>
+<br>![API Gateway](API Gateway.png)<br>
+<br>![API Gateway 2](API Gateway 2.png)<br>
+<br>![API Gateway 3](API Gateway 3.png)<br>
+<br>![API Gateway 4](API Gateway 4.png)<br>
+<br>![API Gateway 5](API Gateway 5.png)<br>
+<br>![API Gateway 6](API Gateway 6.png)<br>
 
 
 <br><ins>**Part 4. words**</ins><br>
