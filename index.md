@@ -70,7 +70,7 @@ Choose the "Author from Scratch" option to create the function, add the Function
 <br>![API Gateway 6](API Gateway 6.png)<br>
 
 
-<br><ins>**Part 4. AWS DynamoDB**</ins><br>
+<br><br><ins>**Part 4. AWS DynamoDB**</ins><br>
 
 <br>Use AWS DynamoDB to store results. Since AWS DynamoDB is noSQL, its lighter and easier to use.<br>
 
