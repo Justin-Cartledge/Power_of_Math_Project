@@ -30,25 +30,30 @@ Create and host a simple webpage using AWS Amplify for a simple index.html ![Amp
 
 <br>![Amplify drag index zip](Amplify drag index zip.png)<br>
 
+<br><ins>**Part 2. Use AWS Lambda to add the mathematical function code to be triggered with Python code**</ins><br>
+
+Choose the "Author from Scratch" option to create the function, add the Function Name, and choose the Runtime (language for the function).<br>
+
+
+<br>![Lambda python function](Lambda python function.png)<br>
+
+
+<br>![Lambda python function 2](Lambda python function 2.png)<br>
+
+Test the Lambda function.<br>
+
+<br>![Lambda python function test](Lambda python function test.png)
+
+<br>![Lambda python function test successful](Lambda python function test successful.png)<br>
+
+Configure the Role Name and Permissions.<br>
+
+<br>![lambda config role name execution](lambda config role name execution.png)<br>
+<br>![lambda config role name execution 2](lambda config role name execution 2.png)<br>
+<br>![lambda config role name execution 3](lambda config role name execution 3.png)<br>
 
 
 
-
-<br><ins>**Part 2. words**</ins><br>
-
-In order to create the Honey Pot, the Security Group rule, which only allows Inbound RDP traffic, was deleted, and a rule was created in the Network Security Group for the virtual machine (VM) that allows ALL traffic inbound.<br>
-
-<br>![Network Sec Group Picture 1](Azure Network Security Group_1.jpg)<br>
-
-<br>![Network Sec Group Picture 2](Azure Network Security Group_2.jpg)<br>
-
-Using the newly created VM's Public IP address, and Remote Desktop Protocol (RDP), the VM was logged into in order to turn off the Windows firewall.<br>
-
-<br>![Delete Firewall Picture 1](Azure Logging into VM to disable internal Firewall_2.png)
-
-<br>![Delete Firewall Picture 2](Azure Logging into VM to disable internal Firewall_3.png)
-
-<br>![Delete Firewall Picture 3](Azure Logging into VM to disable internal Firewall_4.png)
 
 
 <br><ins>**Part 3. words**</ins><br>
