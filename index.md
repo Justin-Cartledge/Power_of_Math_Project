@@ -11,9 +11,9 @@
 This application is built on Amazon Web Services (AWS) to perform mathematical calculations, specifically raising a base number to a given exponent. It utilizes a serverless architecture for scalability and efficiency, leveraging services such as AWS Lambda for backend computation, Amazon API Gateway for secure access, and AWS Amplify or S3 for front-end hosting.
 
 
-<br><ins>**Part 1. AWS Amplify** </ins>
+<br><ins>**Part 1. AWS Amplify** </ins><br>
 
-<br>
+
 Create and host a simple webpage using AWS Amplify for a simple index.html ![Amplify from AWS Console](Amplify from AWS Console.png)
 
 <br>![Amplify Click Deploy App](Amplify Click Deploy App.png)
@@ -35,12 +35,12 @@ Create and host a simple webpage using AWS Amplify for a simple index.html ![Amp
 Choose the "Author from Scratch" option to create the function, add the Function Name, and choose the Runtime (language for the function).<br>
 
 
-<br>![Lambda python function](Lambda python function.png)<br>
+<br>![Lambda python function](Lambda Python function.png)<br>
 
 
 <br>![Lambda python function 2](Lambda python function 2.png)<br>
 
-Test the Lambda function.<br>
+<br>Test the Lambda function.<br>
 
 <br>![Lambda python function test](Lambda python function test.png)
 
