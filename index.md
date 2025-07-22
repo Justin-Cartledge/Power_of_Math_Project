@@ -4,14 +4,14 @@
 
 # To The Power of Math! Application - AWS Project
 
-[CLICK - AWS-Based Exponential Calculation Application](https://dev.dcszzvgx7dd82.amplifyapp.com/)
+[Click - AWS-Based Exponential Calculation Application](https://dev.dcszzvgx7dd82.amplifyapp.com/)
 
 <br><ins>Project Summary</ins><br>
 
 This application is built on Amazon Web Services (AWS) to perform mathematical calculations, specifically raising a base number to a given exponent. It utilizes a serverless architecture for scalability and efficiency, leveraging services such as AWS Lambda for backend computation, Amazon API Gateway for secure access, and AWS Amplify or S3 for front-end hosting.
 
 
-<br><ins>**Part 1. words** (VM)</ins>
+<br><ins>**Part 1. words** </ins>
 
 <br>
 Created an Azure Subscription, and logged in at: [Microsoft Azure](https://portal.azure.com/#home)
