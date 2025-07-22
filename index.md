@@ -11,26 +11,28 @@
 This application is built on Amazon Web Services (AWS) to perform mathematical calculations, specifically raising a base number to a given exponent. It utilizes a serverless architecture for scalability and efficiency, leveraging services such as AWS Lambda for backend computation, Amazon API Gateway for secure access, and AWS Amplify or S3 for front-end hosting.
 
 
-<br><ins>**Part 1. words** </ins>
+<br><ins>**Part 1. AWS Amplify** </ins>
 
 <br>
-Created an Azure Subscription, and logged in at: [Microsoft Azure](https://portal.azure.com/#home)
+Create and host a simple webpage using AWS Amplify for a simple index.html ![Amplify from AWS Console](Amplify from AWS Console.png)
 
-<br>![Account Creation Picture](Azure Account Creation Resize.jpeg)
+<br>![Amplify Click Deploy App](Amplify Click Deploy App.png)
 
-<br>Created Azure Resource Group. A Resource Group is like a container that holds related resources for your cloud solution—think of it as a folder for organizing everything you deploy in Azure.
+<br>Choose a create method.
 
-<br>![Resource Group Picture](Azure Resource group creation_2.jpg)
+<br>![Amplify Deploy App part 2](Amplify Deploy App part 2.png)
 
-<br>Created the Azure Virtual Network (VNET). A VNET is the backbone of networking in Microsoft Azure—it’s your private cloud network where you can securely run and connect resources like virtual machines, databases, and web apps.
+<br>Choose the App Name, Branch Name, and choose the Drag and Drop method to add the simple index.html.zip file.
 
-<br>![VNET Picture](Azure Virtual Network Creation_2.png)
+<br>![Amplify Name App](Amplify Name App.png)
 
-<br>Created the Azure Virtual Machine (VM). A VM is a cloud-based computer you can create and run on Microsoft Azure—without needing to buy or maintain physical hardware.
+<br>Save and Deploy.
 
-<br>![VM Picture 1](Azure Virtual Machine Deployed_1.jpg)<br>
+<br>![Amplify drag index zip](Amplify drag index zip.png)<br>
 
-<br>![VM Picture 2](Azure Virtual Machine Deployed_2.jpg)
+
+
+
 
 <br><ins>**Part 2. words**</ins><br>
 
